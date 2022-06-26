@@ -24,6 +24,16 @@ router.put('/:id', async (req,res)=>{
     res.send(`updated ${id}`)
 })
 
+router.get('/:id', async (req,res)=>{
+    const id = req.params.id
+    const doc = await db.collection('todo').doc(id).get()
+    const data = [{
+        ID : doc.id,
+        Data : doc.data()
+    }]
+    res.json(data)
+})
+
 router.get('/', async (req, res)=>{
     const snapshot = await db.collection('todo').get();
     const todos = []
