@@ -15,6 +15,7 @@
     /                   for index
     /api/v1/todos       for get and post
     /api/v1/todos/:id   for delete and put
+    /api/v1/todos/:id   get method on this path to get document by id
 
 ## Data Structure below
 
