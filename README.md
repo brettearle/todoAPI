@@ -10,13 +10,13 @@
 * GOOGLE_APPLICATION_CREDENTIALS variable with path to todoFBKey.json
 * DB_URL variable with path to your database at firebaseio.com
 
-##End Points
+## End Points
 
     /                   for index
     /api/v1/todos       for get and post
     /api/v1/todos/:id   for delete and put
 
-##Data Structure below
+## Data Structure below
 
 ```
     const data = {
