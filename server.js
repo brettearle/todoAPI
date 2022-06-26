@@ -5,7 +5,6 @@ env.config()
 const cors = require('cors')
 const PORT = process.env.PORT || 8000
 const DB = require('./db/dbConn')
-const db = DB
 
 app.use(cors())
 app.use(express.urlencoded({ extended: true }))
