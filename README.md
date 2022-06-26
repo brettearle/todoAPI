@@ -6,9 +6,9 @@
 ### if you clone and then set up your env variables for fire base with a collection called todo. You will have a basic To do crud API up and running.
 
 ## your env needs
-*fire base key put into the db folder with name todoFBKey.json
-*GOOGLE_APPLICATION_CREDENTIALS variable with path to todoFBKey.json
-*DB_URL variable with path to your database at firebaseio.com
+* fire base key put into the db folder with name todoFBKey.json
+* GOOGLE_APPLICATION_CREDENTIALS variable with path to todoFBKey.json
+* DB_URL variable with path to your database at firebaseio.com
 
 ##End Points
 
